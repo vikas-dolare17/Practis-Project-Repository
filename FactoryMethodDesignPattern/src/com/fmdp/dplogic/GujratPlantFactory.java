@@ -2,6 +2,7 @@ package com.fmdp.dplogic;
 
 import com.fmdp.implimention.Indigo;
 import com.fmdp.interfaces.ICar;
+// Factory TataMotorsWorkshopFactory extends with GujratPlantFactory.....
 
 public class GujratPlantFactory extends TataMotorsWorkshopFactory{
 
