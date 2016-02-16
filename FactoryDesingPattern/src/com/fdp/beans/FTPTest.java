@@ -1,5 +1,4 @@
 package com.fdp.beans;
-
 public class FTPTest {
 
 	public static void main(String args[]){

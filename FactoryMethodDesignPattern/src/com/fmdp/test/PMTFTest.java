@@ -1,7 +1,5 @@
 package com.fmdp.test;
 
-import java.security.GuardedObject;
-
 import com.fmdp.dplogic.GujratPlantFactory;
 import com.fmdp.dplogic.PunePlantFactory;
 import com.fmdp.dplogic.TataMotorsWorkshopFactory;
@@ -31,5 +29,9 @@ public class PMTFTest {
 			car.carName();
 			car.assemble();
 			car.test();
+			System.out.println("======================================== New Class Added =============");	
+			 GujratPlantFactory obje = new  GujratPlantFactory();
+			 System.out.println("  sdf "+obje.showBranch1AddedClas());
+			
 	}
 }
